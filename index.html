@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea5</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+    <div class="rectangulo_rosa ancho"></div>
+    <div class="contenidoprincipal">
+    <div class="contenedor_logos ancho margen">
+        <div class="logo_cabecera">
+            <img src="imagenes/logocabecera.jpg" alt="">
+        </div>
+        <div class="redes">
+            <img src="imagenes/icono_facebook.jpg" alt="">
+            <img src="imagenes/icono_instagram.jpg" alt="">
+            <img src="imagenes/icono_twitter.jpg" alt="">
+        </div>
+    </div>
+    <div class="menu ancho margen">
+        <a href="#">GALERIA</a>
+        <a href="#">PRECIOS</a>
+        <a href="#">CONTACTANOS</a>
+        <a href="#">EQUIPO</a>
+    </div>
+    <br>
+    <div class="contenedor_piedras ancho margen centrar">
+        <div class="textopiedras margen ancho"> 
+            <h1 class="promo">PROMOCIONES DE MARZO</h1>
+            <br>
+            <p class="texto_piedras">Se acerca la epoca de playa y por eso estas dos <br> promociones ideales para ti.</p>
+            <br><br>
+        </div>
+        <div>
+            <a href="#" class="btn_rosa">Solicitar Información</a>
+            <a href="#" class="btn_sinfondo">Ver video</a>
+        </div>
+    </div>
+    <div class="contenedor_productos ancho margen"> 
+        <div class="texto_Science margen">
+            <h3 class="negrita">Los productos Science of Beauty</h3>
+            <br>
+            <p class="texto_velas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nemo omnis quod blanditiis odio ad fugit a voluptatem non eligendi odit excepturi ullam quis tenetur quam cupiditate, voluptate magnam assumenda neque! Dignissimos at odit ullam esse architecto hic, ad quasi nobis aut pariatur, eius molestias debitis aspernatur eaque! Repellendus, commodi.</p>          
+        </div>
+        <div class="velas">
+            <div class="foto_velas">
+                <img src="imagenes/fotovelas.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="contenedor_talentos ancho margen">
+        <h2>Buscamos talento para integrarlos a nuestro equipo</h2>
+        <br>
+    <div class="talentos">
+    <div class="foto_talentos">
+        <img src="imagenes/fotoaromatizante.jpg" alt="">
+    </div>
+    </div>
+    <div class="texto_talentos">
+        <h3>Puesto para Recepcionista</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id exercitationem inventore assumenda neque, reprehenderit officiis at quam explicabo officia esse! Tenetur quidem deserunt, iure molestiae labore eos! Accusamus fugiat ea quos sapiente rem dolores.</p>
+        <br>
+        <h3>Puesto de trabajo para Masajista</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id exercitationem inventore assumenda neque, reprehenderit officiis at quam explicabo officia esse! Tenetur quidem deserunt, iure molestiae labore eos! Accusamus fugiat ea quos sapiente rem dolores.</p>
+        <br>
+        <h3>Puesto de trabajo para Nutriologo</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id exercitationem inventore assumenda neque, reprehenderit officiis at quam explicabo officia esse! Tenetur quidem deserunt, iure molestiae labore eos! Accusamus fugiat ea quos sapiente rem dolores.</p>
+    </div>   
+    </div>
+    <div class="contenedor_promo ancho margen">
+        <div class="noticias">
+            <br>
+            <h1>Recibe noticias y promociones <br> de SPA SALON</h1>
+            <p>Un lugar para consentirte de pies a cabeza</p>
+            <p>Servicio de salón estética y Spa personalizado</p>
+            <br>
+            <p><span class="letra_rosa">TELEFONO:</span> 999 420 8871</p>
+            <p><span class="letra_rosa">CORREO:</span> info@spasalon.com</p>
+            <br>
+        <div class="formulario">
+            <p class="negrita">Tu dirección de correo electrónico</p>
+            <div>
+                <form action="loquesea.html" method="get" id="formulario" name="formulario">
+                    <input type="email" name="email" id="email"  placeholder="*tunombre@example.com" class="campos">
+            </div>
+            <button id="btn_validar" class="boton" type="button">Enviar</button> 
+            </form>
+        </div>
+        </div>
+        <div class="instalaciones">
+            <br>
+            <h1>Nuestras Instalaciones</h1>
+            <br> <br>
+            <iframe width="550" height="280" src="https://www.youtube.com/embed/w4qaODLR_Xg?si=_kM7lszfVsV0rmY6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br><br><br>
+    </div>
+    <div class="final ancho margen">
+        <div class="logo"> 
+            <div class="spa">
+                <img src="imagenes/logo_spa.png" alt="">
+            </div>
+        </div>
+        <div class="datos rosita">
+            <p>Milca Maribel Sánchez Aguilar</p>
+            <p>Programación Web</p>
+            <p>7SA</p>
+        </div>
+    </div>
+    </div>
+    <div class="rectangulo_rosa ancho"></div>
+
+        <script type="text/javascript">
+                $("#btn_validar").click(function () {
+
+                if (!$("#email")[0].checkValidity()) {
+                    alert("Escribe corectamente tu email");
+                    $("#email").focus();
+                    return 0;  
+                    }
+
+                if ($("#email").val().trim()=="") {
+                    alert("Escribe tu email");
+                    $("#email").focus();
+                    return 0;  
+                    }
+                
+                document.getElementById("formulario").submit();
+                 
+                });           
+        </script>
+</body>
+</html>

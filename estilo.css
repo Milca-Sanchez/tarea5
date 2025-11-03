@@ -1,0 +1,274 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+    background-color: #FDF9F0;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+  /*border: 2px red solid;*/
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+.rectangulo_rosa {
+    background-color: #ff3281;
+    height: 20px;
+}
+.contenidoprincipal {
+    background-color: #FDF9F0;
+}
+
+.contenedor_logos {
+    width: 1200px;
+}
+
+.logo_cabecera{
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.redes{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.logo_cabecera img {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+}
+
+.redes img {
+    margin-left:8px;
+    height: auto;
+    vertical-align: top;
+    display: inline-block;  
+}
+.menu {
+    border: 2px black solid; 
+    cursor: pointer;  
+    padding: 2px 20px;
+    margin:Auto;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 190px;
+    font-size: 14px;
+}
+
+.contenedor_piedras{
+    width: 1200px;
+    background-image: url(imagenes/fondopiedras.jpg);
+    height: 450px;
+}
+
+.textopiedras {
+    color:white;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.btn_rosa {
+    background-color: #ff3281; 
+    color:white;
+    padding: 8px 30px;
+    font-size: 15px;
+    margin: auto;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.btn_sinfondo {
+    border: 2px #ff3281 solid;
+    color:white;
+    display: inline-block;
+    font-size: 15px;
+    padding: 8px 30px;
+    margin: auto; 
+}
+
+.promo {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin:auto;
+}
+
+.texto_priedras {
+  font-size: 15px; 
+
+}
+
+.contenedor_productos {
+    width: 1200px;
+    background-color: #ffffff; 
+}
+
+.texto_Science{
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.velas{
+    width: 450px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+}
+
+.foto_velas {
+   width: 400px;
+}
+
+.foto_velas img {
+    width: 100%;
+}
+
+.texto_velas {
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.contenedor_talentos{
+    width: 1200px;
+}
+
+.talentos {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texto_talentos {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.texto_talentos p {
+   font-size: 14px; 
+}
+
+.foto_talentos {
+    width: 100%;
+}
+
+.foto_talentos img {
+    border-radius: 10px;
+}
+.contenedor_talentos h2 {
+    text-align: center;
+}
+
+.contenedor_promo {
+    width: 1200px;
+    background-color: #ffffff; 
+}
+
+.noticias {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.formulario {
+    width: 460px;
+    border: 2px #ff3281 solid;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.instalaciones {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.final {
+    width:1200px;
+}
+
+.logo {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.spa {
+    width: 100%;
+}
+
+.datos {
+    width: 610px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    font-size: 20px;
+}
+
+.rosita {
+   color: #ff3281;
+   font-weight: bold;
+}
+
+.noticias h1{
+    line-height: 35px;
+}
+.noticias p {
+    line-height: 20px;
+}
+
+.letra_rosa {
+    color: #ff3281;
+   font-weight: bold;
+   line-height: 25px;
+}
+
+.boton {
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    border: 0;
+    margin-left: 20px;
+}
+
+.campos {
+    border: 1px #999 solid;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+iframe {
+  border-radius: 5px;  
+}
